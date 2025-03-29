@@ -9,11 +9,11 @@
     "build": "next build",
     "start": "next start"
   },
-  "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
+"devDependencies": {
+  "typescript": "^5.0.0",         // or whatever version
+  "@types/react": "^18.0.0",
+  "@types/node": "^18.0.0"
+},
   "engines": {
     "node": ">=14.0.0"
   }
